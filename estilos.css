@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    font-family: 'Prompt', sans-serif;
+    height: 65px;
+    background-color: #870b78;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-inline-start: 500px;
+    padding-bottom: 2px;
+}
+.cara{
+    border-radius: 500px;
+    height: 200px;
+    font-family: 'Prompt', sans-serif;
+}
+.uno{
+    font-family: 'Prompt', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100vh - 65px);
+    background-color: #320234;
+    color: black;
+    /* padding-top: 10%; */
+}
+.caja-central{
+    font-family: 'Prompt', sans-serif;
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 50%;
+}
+.caja-cara{
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #521b54;
+}
+.caja-presentacion{
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #521b54;
+    color: #f7f7f7;
+    padding: 10px;
+}
+
+.dos{
+    font-family: 'Prompt', sans-serif;
+    background-color: #320234;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f7f7f7;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.aptitudes{
+    font-family: 'Prompt', sans-serif;
+    width: 50%;
+}
+.tech-list{
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.tech{
+    font-family: 'Prompt', sans-serif;
+    height: 90px;
+}
+
+.tres{
+    font-family: 'Prompt', sans-serif;
+    background-color: #320234;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: #F2F2F2;
+}
+.proyectos{
+    font-family: 'Prompt', sans-serif;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    width: 30%;
+    border:solid #F2F2F2 1px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 1px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+.card img
+{ font-family: 'Prompt', sans-serif;
+
+    width: 90%;
+}
+.card a, footer a {
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+
+.red-social{
+    font-family: 'Prompt', sans-serif;
+    height: 60px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    font-family: 'Prompt', sans-serif;
+}
+
+footer{
+    font-family: 'Prompt', sans-serif;
+    background-color: #320234;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #F2F2F2;
+    height: 350px;
+}
+.contacto{
+    font-family: 'Prompt', sans-serif;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media (max-width: 1000px) {
+    .caja-central{
+        width: 90%;
+        height: 70%;
+        flex-direction: column;
+        font-family: 'Prompt', sans-serif;
+    }
+    .caja-cara{
+        font-family: 'Prompt', sans-serif;
+        width: 100%;
+        height: 50%;
+    }
+    .caja-presentacion{
+        font-family: 'Prompt', sans-serif;
+        width: 100%;
+        height: 50%;
+        align-items: flex-start;
+    }
+    .aptitudes{
+        font-family: 'Prompt', sans-serif;
+        width: auto;
+    }
+    .dos{
+        font-family: 'Prompt', sans-serif;
+        height: auto;
+        padding: 0 10px 10px 10px;
+
+    }
+    .tres{
+        font-family: 'Prompt', sans-serif;
+        height: auto;
+    }
+    .proyectos{
+        font-family: 'Prompt', sans-serif;
+        flex-direction: column;
+        width: 10%;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 100px;
+    }
+    .card{font-family: 'Prompt', sans-serif;
+        width: 30%;
+        margin-top: 20px;
+    }
+    .red-social{
+        font-family: 'Prompt', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 90px;
+    }
+}
